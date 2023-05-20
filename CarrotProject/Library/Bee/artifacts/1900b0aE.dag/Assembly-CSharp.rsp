@@ -525,8 +525,8 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
-"Assets/PlayerMove.cs"
 "Assets/Scripts/ARVARInput.cs"
+"Assets/YeWonFoler/PlayerMove.cs"
 -langversion:9.0
 
 /deterministic
