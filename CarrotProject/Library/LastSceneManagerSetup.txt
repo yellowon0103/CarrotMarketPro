@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/YeWon.unity
+- path: Assets/SunJooFolder/Initial/InitiateScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
