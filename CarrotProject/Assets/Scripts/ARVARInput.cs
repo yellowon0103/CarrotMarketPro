@@ -2,7 +2,6 @@
 #define Oculus
 //#define Vive
 
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -93,10 +92,9 @@ public static class ARAVRInput
             return lHand;
         }
     }
-
     // 오른쪽 컨트롤러
-    static Transform rHand;
 
+    static Transform rHand;
     // 씬에 등록된 오른쪽 컨트롤러 찾아 반환
     public static Transform RHand
     {
@@ -112,13 +110,8 @@ public static class ARAVRInput
                 rHand = handObj.transform;
                 // 컨트롤러를 카메라의 자식 객체로 등록
                 rHand.parent = Camera.main.transform;
-#elif Oculus
-                lHand = GameObject.Find("RightControllerAnchor").transform;
-#elif Vive
-                lHand = GameObject.Find("Controller(right)").transform;
 #endif
             }
-
             return rHand;
         }
     }
@@ -134,6 +127,7 @@ public static class ARAVRInput
             pos.z = 0.7f;
             // 스크린 좌표를 월드 좌표로 변환
             pos = Camera.main.ScreenToWorldPoint(pos);
+
             RHand.position = pos;
             return pos;
 #elif Oculus
@@ -157,7 +151,9 @@ public static class ARAVRInput
             RHand.forward = direction;
             return direction;
 #elif Oculus
-            Vector3 direction = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch) * Vector3.forward;
+
+            Vector3 direction = OVRInput.GetLocalControllerRotation(OVRInput.Controller.
+            RTouch) * Vector3.forward;
             direction = GetTransform().TransformDirection(direction);
 
             return direction;
@@ -214,7 +210,6 @@ public static class ARAVRInput
         {
             rootTransform = GameObject.Find("TrackingSpace").transform;
         }
-
         return rootTransform;
     }
 #elif Vive
@@ -222,11 +217,12 @@ public static class ARAVRInput
     {
         if (rootTransform == null)
         {
+
             rootTransform = GameObject.Find("[CameraRig]").transform;
         }
         return rootTransform;
     }
-# endif
+#endif
 
     // 컨트롤러의 특정 버튼을 누르고 있는 동안 true를 반환
     public static bool Get(Button virtualMask, Controller hand = Controller.RTouch)
@@ -279,7 +275,7 @@ public static class ARAVRInput
         {
             return OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, (OVRInput.Controller)hand).x;
         }
-else
+        else
         {
             return OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, (OVRInput.Controller)hand).y;
         }
@@ -295,6 +291,7 @@ else
 #endif
     }
 
+
     // 컨트롤러에 진동 호출하기
     public static void PlayVibration(Controller hand)
     {
@@ -305,9 +302,6 @@ else
 #endif
     }
 
-    // 컨트롤러에 진동 호출하기
-    // duration: 지속 시간, frequency: 빈도, 
-    // amplify: 진폭, hand: 왼쪽 혹은 오른쪽 컨트롤러
     public static void PlayVibration(float duration, float frequency, float amplitude, Controller hand)
     {
 #if Oculus
@@ -325,6 +319,7 @@ else
 #endif
     }
 
+
     // 카메라가 바라보는 방향을 기준으로 센터를 잡는다.
     public static void Recenter()
     {
@@ -335,7 +330,8 @@ else
         SubsystemManager.GetInstances<XRInputSubsystem>(subsystems);
         for (int i = 0; i < subsystems.Count; i++)
         {
-            subsystems[i].TrySetTrackingOriginMode(TrackingOriginModeFlags.TrackingReference);
+            subsystems[i].TrySetTrackingOriginMode(TrackingOriginModeFlags.
+            TrackingReference);
             subsystems[i].TryRecenter();
         }
 #endif
@@ -347,6 +343,7 @@ else
         target.forward = target.rotation * direction;
     }
 
+
 #if PC
     static Vector3 originScale = Vector3.one * 0.02f;
 #else
@@ -356,7 +353,9 @@ else
     // 광선 레이가 닿는 곳에 크로스헤어를 위치시키고 싶다.
     public static void DrawCrosshair(Transform crosshair, bool isHand = true, Controller hand = Controller.RTouch)
     {
+
         Ray ray;
+
         // 컨트롤러의 위치와 방향을 이용해 레이 제작
         if (isHand)
         {
@@ -382,7 +381,6 @@ else
         // 눈에 안 보이는 Plane을 만든다.
         Plane plane = new Plane(Vector3.up, 0);
         float distance = 0;
-
         // plane을 이용해 ray를 쏜다.
         if (plane.Raycast(ray, out distance))
         {
@@ -399,23 +397,26 @@ else
             distance = (crosshair.position - ray.origin).magnitude;
             crosshair.localScale = originScale * Mathf.Max(1, distance);
         }
-
     }
+
 
 #if Oculus
     static IEnumerator VibrationCoroutine(float duration, float frequency, float amplitude, Controller hand)
     {
         float currentTime = 0;
+
         while (currentTime < duration)
         {
+
             currentTime += Time.deltaTime;
-            OVRInput.SetControllerVibration(frequency, amplitude, (OVRInput.Controller)hand);
+
+            OVRInput.SetControllerVibration(frequency, amplitude, (OVRInput.Controller)
+            hand);
             yield return null;
         }
         OVRInput.SetControllerVibration(0, 0, (OVRInput.Controller)hand);
     }
 #endif
-
 }
 
 // ARAVRInput 클래스에서 사용할 코루틴 객체
@@ -428,7 +429,6 @@ class CoroutineInstance : MonoBehaviour
         {
             coroutineInstance = this;
         }
-
         DontDestroyOnLoad(gameObject);
     }
 }

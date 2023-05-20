@@ -15,7 +15,7 @@ C:/Users/gyw1t/githubRepository_yw/CarrotMarketPro/CarrotProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53224
+49334
 Successfully changed project path to: C:/Users/gyw1t/githubRepository_yw/CarrotMarketPro/CarrotProject
 C:/Users/gyw1t/githubRepository_yw/CarrotMarketPro/CarrotProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/gyw1t/githubRepository_yw/CarrotMarketPro/CarrotProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17496] Host "[IP] 192.168.0.49 [Port] 0 [Flags] 2 [Guid] 1166622656 [EditorId] 1166622656 [Version] 1048832 [Id] WindowsEditor(7,JYPLAB2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18640] Host "[IP] 192.168.0.49 [Port] 0 [Flags] 2 [Guid] 2104149222 [EditorId] 2104149222 [Version] 1048832 [Id] WindowsEditor(7,JYPLAB2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17496] Host "[IP] 192.168.0.49 [Port] 0 [Flags] 2 [Guid] 1166622656 [EditorId] 1166622656 [Version] 1048832 [Id] WindowsEditor(7,JYPLAB2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18640] Host "[IP] 192.168.0.49 [Port] 0 [Flags] 2 [Guid] 2104149222 [EditorId] 2104149222 [Version] 1048832 [Id] WindowsEditor(7,JYPLAB2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.12 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
+Refreshing native plugins compatible for Editor in 84.16 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/gyw1t/githubRepository_yw/CarrotMarketPro/CarrotProject/Assets
@@ -68,61 +68,61 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003713 seconds.
+Registered in 0.003478 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.24 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 76.82 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.447 seconds
+- Completed reload, in  0.445 seconds
 Domain Reload Profiling:
-	ReloadAssembly (448ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (445ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (324ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (198ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004956 seconds.
+Registered in 0.005596 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000028CD1E542D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file data-000001D5D6D10580 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD41A3EC0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file data-000001D5D6495480 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD3FA6610 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file data-000001D5D4E7BEF0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD3FA6610 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file data-000001D5D4E84500 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD523D590 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file data-000001D5D808E4B0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -130,29 +130,29 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.85.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.848 seconds
 Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (320ms)
+			SetupLoadedEditorAssemblies (328ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -162,12 +162,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4757 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (192.2 KB). Loaded Objects now: 5196.
-Memory consumption went from 173.7 MB to 173.5 MB.
-Total: 3.340300 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.232300 ms MarkObjects: 2.642100 ms  DeleteObjects: 0.138100 ms)
+Unloading 54 unused Assets / (201.1 KB). Loaded Objects now: 5209.
+Memory consumption went from 185.2 MB to 185.0 MB.
+Total: 3.228800 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.194500 ms MarkObjects: 2.581100 ms  DeleteObjects: 0.152100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -181,24 +181,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42343.120280 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/CustomHandLeft.prefab
-  artifactKey: Guid(e6ba3498ffa1e534b91a07264266e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/CustomHandLeft.prefab using Guid(e6ba3498ffa1e534b91a07264266e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a74fa5e4c7153d7bcca6f6923f18048') in 0.280779 seconds 
+  Time since last request: 5865.321821 seconds.
+  path: Assets/Scripts/ARVARInput.cs
+  artifactKey: Guid(57a7ac2edc0b7ab409dcd5c228168fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARVARInput.cs using Guid(57a7ac2edc0b7ab409dcd5c228168fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c85c13af4f2a8c56865a49d3548d0e8') in 0.030083 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004709 seconds.
+Registered in 0.004618 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000028CD1FD2BA0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file data-000001D5D4BD8040 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD7415420 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file data-000001D5DBC76040 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD21C1020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file data-000001D5DB607010 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD21C9630 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file data-000001D5DB60F620 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CCECCC200 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file data-000001D5DAF8ED10 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -214,405 +214,101 @@ Preloading 1 native plugins for Editor in 0.06 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.759 seconds
 Domain Reload Profiling:
-	ReloadAssembly (782ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (595ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.52 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4664 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (166.7 KB). Loaded Objects now: 5208.
-Memory consumption went from 182.6 MB to 182.5 MB.
-Total: 3.240100 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.204800 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.139300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7500.762415 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c1ba1ce7ddb0d0d47a56008de5de7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c1ba1ce7ddb0d0d47a56008de5de7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1637da67b8256e58661ddaf44213246e') in 0.030496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 154.716410 seconds.
-  path: Assets/PlayerMove.cs
-  artifactKey: Guid(c7d919bcfee57c7438a42e7661b4ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerMove.cs using Guid(c7d919bcfee57c7438a42e7661b4ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60eff1c7fc38f70786391af0f3ecd020') in 0.011358 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004832 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000028CDACF26D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD7FC1430 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CDADF51D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CDAEE2D20 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD6E88020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Domain Reload Profiling:
-	ReloadAssembly (758ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (255ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.57 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (0.7 MB). Loaded Objects now: 5214.
-Memory consumption went from 183.5 MB to 182.8 MB.
-Total: 4.103200 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.331500 ms MarkObjects: 3.116800 ms  DeleteObjects: 0.321700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004753 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000028D1C0640A0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C0640A0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1B716070 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1B716070 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C9AB040 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
-Domain Reload Profiling:
-	ReloadAssembly (761ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (584ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.91 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (159.1 KB). Loaded Objects now: 5218.
-Memory consumption went from 183.0 MB to 182.8 MB.
-Total: 3.069900 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.261600 ms MarkObjects: 2.301700 ms  DeleteObjects: 0.129500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004765 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000028CD53D0030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD53D0030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1B9002F0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1B85AFD0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C8DA080 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Domain Reload Profiling:
-	ReloadAssembly (806ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (271ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.20 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (159.2 KB). Loaded Objects now: 5222.
-Memory consumption went from 183.0 MB to 182.9 MB.
-Total: 3.128700 ms (FindLiveObjects: 0.349600 ms CreateObjectMapping: 0.176800 ms MarkObjects: 2.475900 ms  DeleteObjects: 0.125500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005697 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000028D1B939DF0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CDACF26D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C8DA080 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C8DA080 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD91E4020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
-Domain Reload Profiling:
-	ReloadAssembly (752ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (573ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.01 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (159.2 KB). Loaded Objects now: 5226.
-Memory consumption went from 182.8 MB to 182.7 MB.
-Total: 3.228700 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.203600 ms MarkObjects: 2.584700 ms  DeleteObjects: 0.131500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004982 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000028D1B939DF0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CDA2D58E0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C2F6E30 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028D1C2F6E30 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028CD8E34010 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Domain Reload Profiling:
-	ReloadAssembly (762ms)
+	ReloadAssembly (759ms)
 		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (258ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (179ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.02 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (167.7 KB). Loaded Objects now: 5213.
+Memory consumption went from 177.4 MB to 177.2 MB.
+Total: 3.172500 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.194200 ms MarkObjects: 2.550200 ms  DeleteObjects: 0.121200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5DC119390 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A3041C90 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5FF87B030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5FF87B030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5D6DCE030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (174ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -620,12 +316,304 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.70 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 4.62 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (167.0 KB). Loaded Objects now: 5230.
-Memory consumption went from 183.0 MB to 182.9 MB.
-Total: 2.812200 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.276200 ms  DeleteObjects: 0.134700 ms)
+Unloading 46 unused Assets / (160.0 KB). Loaded Objects now: 5217.
+Memory consumption went from 177.4 MB to 177.2 MB.
+Total: 2.802300 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.259000 ms  DeleteObjects: 0.146700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5D9E12030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5D9E12030 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2889150 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2891760 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A45ACA60 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.49 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (167.8 KB). Loaded Objects now: 5221.
+Memory consumption went from 177.4 MB to 177.3 MB.
+Total: 3.143900 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.387000 ms  DeleteObjects: 0.322000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005282 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5FF852010 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5FF852010 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2B216D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2B216D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5DD89D410 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (167.9 KB). Loaded Objects now: 5225.
+Memory consumption went from 177.4 MB to 177.3 MB.
+Total: 2.851500 ms (FindLiveObjects: 0.310700 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.316600 ms  DeleteObjects: 0.129600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5DAFA6020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5DAFA6020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2B216D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A2B216D0 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A3AA7240 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (739ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.21 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (160.1 KB). Loaded Objects now: 5229.
+Memory consumption went from 177.2 MB to 177.1 MB.
+Total: 3.048500 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.270100 ms MarkObjects: 2.324000 ms  DeleteObjects: 0.132400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D3A3F6E020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.VoiceSDK.Mic.WebGL.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A3F6E020 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Facebook.Wit.Dictation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A3DFB060 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D3A3DFB060 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5DDB68C30 doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\ScriptAssemblies\Meta.WitAi.TTS.Samples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gyw1t\githubRepository_yw\CarrotMarketPro\CarrotProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (167.9 KB). Loaded Objects now: 5233.
+Memory consumption went from 177.5 MB to 177.3 MB.
+Total: 3.007000 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.454800 ms  DeleteObjects: 0.139800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
