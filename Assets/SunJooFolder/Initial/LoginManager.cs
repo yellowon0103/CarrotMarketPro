@@ -9,20 +9,11 @@ public class LoginManager : MonoBehaviour
     public Button loginButton;
     public TMP_InputField loginInputField;
 
-    //public GameObject menuUIl
-   // private List<Button> menuButtonList;
-
     private string inputUserCode;
 
-    private bool login = false;
-    private Dictionary<string, string> userCodeDic;
 
     void Awake(){
-        userCodeDic.Add("1111", "csh");
-        userCodeDic.Add("2222", "kyw");
-        userCodeDic.Add("3333", "lsj");
-
-        loginButton.interactable = true;
+        loginButton.interactable = false;
     }
 
     public void checkLoginInputFieldLen(){
