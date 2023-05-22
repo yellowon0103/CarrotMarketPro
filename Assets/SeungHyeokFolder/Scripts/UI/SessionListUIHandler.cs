@@ -63,7 +63,7 @@ public class SessionListUIHandler : MonoBehaviour
     {
         ClearList();
 
-        statusText.text = "Looking for Carrot sessions";
+        statusText.text = "Looking for Carrot sessions...";
         statusText.gameObject.SetActive(true);
     }
 }
