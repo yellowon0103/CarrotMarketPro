@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SunjooScene.unity
+    guid: 15282282bb6a56f41b7c86c7bb623d80
+  - enabled: 1
     path: Assets/Scenes/SHMenu.unity
     guid: 76655fef9b064e5438d1d01963ee3ce7
   - enabled: 1
