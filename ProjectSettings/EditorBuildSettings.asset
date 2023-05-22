@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SHGround.unity
     guid: ca33cbb22c7c60248943e38cc15a6e19
+  - enabled: 1
+    path: Assets/SunJooFolder/MyPage/MyPage Scene.unity
+    guid: 28d215fd2d05e0b448cafb6a34ea709f
+  - enabled: 1
+    path: Assets/SunJooFolder/Community/Community Scene.unity
+    guid: 1def11b5fd0893240a4fc38f7a91ff3a
+  - enabled: 1
+    path: Assets/SunJooFolder/Home/Home Scene.unity
+    guid: 17cb1729f325ab949ac25e2239baa55d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3e2e51968bb65e840ab379f703008a0a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 95cb37910f3b3b549b09370c5b9144a7, type: 2}
