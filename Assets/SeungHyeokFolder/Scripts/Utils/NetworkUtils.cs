@@ -6,6 +6,6 @@ public static class NetworkUtils
 {
     public static Vector3 GetRandomSpawnPoint()
     {
-        return new Vector3(Random.Range(-5, 5), 1, Random.Range(-5, 5));
+        return new Vector3(Random.Range(-3, 3), 1, Random.Range(-3, 3));
     }
 }

@@ -21,8 +21,14 @@ public class MainMenuUIHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
         if (PlayerPrefs.HasKey("PlayerNickname"))
             playerNameInputField.text = PlayerPrefs.GetString("PlayerNickname");
+        */
+
+        // 로비를 열기 위한 네트워크 핸들러를 연다.
+        // 0.5초 대기 후 실행
+        Invoke("OnFindCarrotClicked", 0.5f);
     }
 
     void HideAllPanels()
@@ -35,8 +41,10 @@ public class MainMenuUIHandler : MonoBehaviour
 
     public void OnFindCarrotClicked()
     {
+        /*
         PlayerPrefs.SetString("PlayerNickname", playerNameInputField.text);
         PlayerPrefs.Save();
+        */
 
         NetworkRunnerHandler networkRunnerHandler = FindObjectOfType<NetworkRunnerHandler>();
 
