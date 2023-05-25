@@ -33,7 +33,8 @@ public class NetworkRunnerHandler : MonoBehaviour
 
             if (SceneManager.GetActiveScene().name != "SHMenu")
             {
-                var clientTask = InitializeNetworkRunner(networkRunner, GameMode.AutoHostOrClient, "TestSession", NetAddress.Any(), SceneManager.GetActiveScene().buildIndex, null);
+                Debug.Log("Join Community Server");
+                var clientTask = InitializeNetworkRunner(networkRunner, GameMode.AutoHostOrClient, "Community", NetAddress.Any(), SceneUtility.GetBuildIndexByScenePath("Scenes/CommunityGround"), null);
             }
 
             Debug.Log($"Server NetworkRunner started");
@@ -121,6 +122,14 @@ public class NetworkRunnerHandler : MonoBehaviour
 
         // 클라이언트로서 당근에 접속
         var clientTask = InitializeNetworkRunner(networkRunner, GameMode.Client, sessionInfo.Name, NetAddress.Any(), SceneManager.GetActiveScene().buildIndex, null);
+    }
+
+    public void JoinCommunity()
+    {
+        Debug.Log($"Join Session Community");
+
+        // 커뮤니티 씬에 접속
+        var clientTask = InitializeNetworkRunner(networkRunner, GameMode.AutoHostOrClient, "Community", NetAddress.Any(), SceneUtility.GetBuildIndexByScenePath("Scenes/CommunityGround"), null);
     }
 }
 
