@@ -16,7 +16,7 @@ public class MenuSceneChangeManager : MonoBehaviour
             SceneManager.LoadScene("SHMenu");
         }
         if(buttonName == "MenuCommunityButton"){
-            SceneManager.LoadScene("Community Scene");
+            SceneManager.LoadScene("CommLoading");
         }
         if(buttonName == "MenuMyPageButton"){
             SceneManager.LoadScene("MyPage Scene");
