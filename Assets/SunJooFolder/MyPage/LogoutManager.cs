@@ -6,12 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class LogoutManager : MonoBehaviour
 {
-    public Button logoutButton;
+    public GameObject ProfileUI;
+    public Button logoutButton; 
+
+    void private void Start() {
+        
+    }
 
     public void onLogoutButtonClick(){
-        //ApplicationDataManager.appDataManager.isLoggedIn = false;
-        //ApplicationDataManager.appDataManager.loginUserCode = "";
-
+        Debug.Log("LogoutManager>> Logout Succes!");
+        gameDataManager.ManageLogoutData();
+        //go back to LoginScene
         SceneManager.LoadScene("SunjooScene");
     }
+
+    private void D
 }

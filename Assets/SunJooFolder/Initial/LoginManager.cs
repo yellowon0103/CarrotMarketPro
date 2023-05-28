@@ -9,16 +9,17 @@ public class LoginManager : MonoBehaviour
     public Button loginButton;
     public TMP_InputField loginInputField;
 
+    //input text in login input field
     private string inputUserCode;
 
-
-    void Awake(){
+    void Awake(){   
+        //init login button
         loginButton.interactable = false;
     }
 
-    public void checkLoginInputFieldLen(){
+    //login button iteractable when loginInputField.text length is 4
+    public void CheckLoginInputFieldLen(){
         inputUserCode = loginInputField.text;
-        Debug.Log("loginInputField: "+inputUserCode);
 
         if(inputUserCode.Length == 4){
             loginButton.interactable = true;
@@ -28,7 +29,16 @@ public class LoginManager : MonoBehaviour
         }
     }
 
-    //public void onLoginButtonClick(){
-    //   
-    //}
+    //verify login
+    public void OnLoginButtonClick(){
+        //registered user code
+        if(gameDataManager.Contains(inputUserCode)){
+            Debug.Log("LoginManager>> Login Success!")
+            gameDataManager.ManageLoginData(inputUserCode);
+        }
+        //unregistered user code
+        else{
+            Debug.Log("LoginManager>> Login failed! Not registered user code.");
+        }
+    }
 }
