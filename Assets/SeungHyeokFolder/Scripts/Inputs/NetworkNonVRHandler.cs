@@ -11,7 +11,7 @@ public class NetworkNonVRHandler : MonoBehaviour
 
     private Vector2 lastInputPosition;
 
-    [SerializeField] private float rotationSpeed = 2f;
+    [SerializeField] private float rotationSpeed = 20f;
     [SerializeField] private RectTransform exclusionArea;
 
     float rotationY;
@@ -19,7 +19,7 @@ public class NetworkNonVRHandler : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        _nonVRInputHandler = _Joystick.GetComponent<NetworkNonVRInputHandler>();
+        _nonVRInputHandler = GetComponentInChildren<NetworkNonVRInputHandler>();
     }
 
     // Update is called once per frame
