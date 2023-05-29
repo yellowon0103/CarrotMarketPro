@@ -15,14 +15,13 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
-
     //(1) Game Login/Logout Data
-    public bool isLoggedIn;
-    public string loggedInUserCode; 
+    private bool isLoggedIn;
+    private string loggedInUserCode; 
 
     //(2) LoggedIn Data
     //<user code, user name> dictionary 
-    public Dictionary<string, string> userCodeNameDict;
+    private Dictionary<string, string> userCodeNameDict;
     
     //(3) Carrot List Data
     //carrot info struct
@@ -32,7 +31,7 @@ public class GameDataManager : MonoBehaviour
     }
 
     //<user code, user carrot info list> dictionary
-    public Dictionary<string, List<CarrotInfo>> userCodeCarrotListDict;
+    private Dictionary<string, List<CarrotInfo>> userCodeCarrotListDict;
    
     void Awake(){
          //singleton pattern
@@ -49,22 +48,37 @@ public class GameDataManager : MonoBehaviour
         loggedInUserCode = "0";
 
         //(2) init
-        userCodeNameDict.Add("0", "Visitor");
-        userCodeNameDict.Add("1111", "ChoiSH");
-        userCodeNameDict.Add("2222", "KimYW");
-        userCodeNameDict.Add("3333", "LeeSJ");
+        userCodeNameDict = new Dictionary<string, string>();
+        userCodeNameDict.Add("0", "로그인이 필요합니다");
+        userCodeNameDict.Add("1111", "최승혁");
+        userCodeNameDict.Add("2222", "김예원");
+        userCodeNameDict.Add("3333", "이선주");
 
         //(3) init
+        userCodeCarrotListDict = new Dictionary<string, List<CarrotInfo>>();
         userCodeCarrotListDict.Add("0", new List<CarrotInfo>());
         userCodeCarrotListDict.Add("1111", new List<CarrotInfo>());
         userCodeCarrotListDict.Add("2222", new List<CarrotInfo>());
         userCodeCarrotListDict.Add("3333", new List<CarrotInfo>());
     }
 
-    //(1) called when login happened in LoginScene
-    public void ManageLoginData(string inputLoginCode){
+    //(1) getter
+    public bool getIsLoggedIn(){return isLoggedIn;}
+    public string getLoggedInUserCode(){return loggedInUserCode;}
+
+    //(1) called when verifing login in SunjooScene
+    public bool VerifyLogin(string inputUserCode){
+        Debug.Log("GameDataManager>> Verify Login. inputUserCode: "+inputUserCode);
+        if(inputUserCode == null || !userCodeNameDict.ContainsKey(inputUserCode)){
+            return false;
+        }
+        return true;
+    }
+
+    //(1) called when login happened in SunjooScene
+    public void ManageLoginData(string inputUserCode){
         isLoggedIn = true;
-        loggedInUserCode = inputLoginCode;
+        loggedInUserCode = inputUserCode;
         Debug.Log("GameDataManager>> Managed Login Data. loggedInUserCode: "+loggedInUserCode);
     }
 
