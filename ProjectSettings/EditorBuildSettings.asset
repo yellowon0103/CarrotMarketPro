@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SHGround.unity
     guid: ca33cbb22c7c60248943e38cc15a6e19
   - enabled: 1
-    path: Assets/SunJooFolder/MyPage/MyPage Scene.unity
+    path: Assets/Scenes/MyPage Scene.unity
     guid: 28d215fd2d05e0b448cafb6a34ea709f
   - enabled: 1
     path: Assets/SunJooFolder/Community/Community Scene.unity
