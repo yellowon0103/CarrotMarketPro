@@ -37,7 +37,7 @@ public class NetworkPlayer : NetworkBehaviour
 
     public override void Spawned()
     {
-        if (Object.HasInputAuthority) 
+        if (Object.HasInputAuthority)
         {
             Local = this;
 
@@ -46,7 +46,16 @@ public class NetworkPlayer : NetworkBehaviour
 
             Debug.Log("Spawned Local Player");
         }
-        else Debug.Log("Spawned Remote Player");
+        else
+        {
+            Camera localcamera = GetComponentInChildren<Camera>();
+            localcamera.enabled = false;
+
+            AudioListener audioListener = GetComponentInChildren<AudioListener>();
+            audioListener.enabled = false;
+
+            Debug.Log("Spawned Remote Player");
+        }
     }
 
     [Rpc(RpcSources.InputAuthority, RpcTargets.All)]  // (플레이어에 대한 입력 권한이 있는 클라이언트만 이 메소드를 호출하도록 허용, 모든 클라이언트에서 실행.)

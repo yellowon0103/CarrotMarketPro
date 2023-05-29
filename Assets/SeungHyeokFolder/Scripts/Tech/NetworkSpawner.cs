@@ -53,7 +53,7 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
             PlayerPrefs.DeleteKey("SessionName");
             PlayerPrefs.Save();
         }
-        if (_sessionProduct == null) 
+        if (_sessionProduct == null && sessionName != null) 
         {
             GameObject _productPrefab = Resources.Load<GameObject>(sessionName);
             if (_productPrefab != null)

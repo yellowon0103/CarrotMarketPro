@@ -6,7 +6,7 @@ public class LocalCameraInput : MonoBehaviour
 {
     private Vector2 lastInputPosition;
 
-    [SerializeField] private float rotationSpeed = 2f;
+    [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private RectTransform exclusionArea;
 
     private void Update()
