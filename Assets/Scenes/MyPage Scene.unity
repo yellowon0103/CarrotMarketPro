@@ -452,7 +452,6 @@ RectTransform:
   m_Children:
   - {fileID: 1113049051}
   - {fileID: 1792648093}
-  - {fileID: 1052541815}
   m_Father: {fileID: 914849334}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -470,11 +469,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 573091697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfe9ecdeac07cf74084993b1fd992e35, type: 3}
+  m_Script: {fileID: 11500000, guid: 3865bccb8f5e84349b665bac0035eb42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProfileUI: {fileID: 0}
-  logoutButton: {fileID: 1052541816}
+  userNameText: {fileID: 1792648094}
 --- !u!1 &768268048
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 810556940}
+  - component: {fileID: 810556941}
   m_Layer: 0
   m_Name: GameDataManager
   m_TagString: Untagged
@@ -590,6 +589,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &810556941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810556939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416796b2314651c4c91f235c07072951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &861845692
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +972,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573091698}
+  - {fileID: 1052541815}
   - {fileID: 1633043401}
   - {fileID: 2131206294}
   m_Father: {fileID: 1039918840}
@@ -1138,18 +1150,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052541814}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1890272277}
-  m_Father: {fileID: 573091698}
-  m_RootOrder: 2
+  m_Father: {fileID: 914849334}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 427.72644, y: -163}
+  m_AnchoredPosition: {x: -62.27356, y: -138}
   m_SizeDelta: {x: 231.7264, y: 124}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1052541816
@@ -1258,7 +1270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe9ecdeac07cf74084993b1fd992e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProfileUI: {fileID: 0}
   logoutButton: {fileID: 1052541816}
 --- !u!1001 &1081240001
 PrefabInstance:
@@ -2210,7 +2221,7 @@ RectTransform:
   - {fileID: 1328892842}
   - {fileID: 1616879713}
   m_Father: {fileID: 914849334}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2784,7 +2795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 204821174707134666, guid: dba5bfb5bfcbc454e8aba47097cde51a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 204821174707134666, guid: dba5bfb5bfcbc454e8aba47097cde51a, type: 3}
       propertyPath: m_AnchorMax.x

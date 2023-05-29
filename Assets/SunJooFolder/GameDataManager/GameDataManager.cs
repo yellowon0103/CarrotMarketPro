@@ -66,6 +66,16 @@ public class GameDataManager : MonoBehaviour
     public bool getIsLoggedIn(){return isLoggedIn;}
     public string getLoggedInUserCode(){return loggedInUserCode;}
 
+    public string getLoggedInUserName(){
+        string userName;
+        if(userCodeNameDict.TryGetValue(loggedInUserCode, out userName)){
+            Debug.Log("GameDataManager>> getLoggedInUserName. userName: "+userName);
+            return userName;
+        }
+        Debug.Log("GameDataManager>> getLoggedInUserName. Couldn't get user name!");
+        return "";
+    }
+
     //(1) called when verifing login in SunjooScene
     public bool VerifyLogin(string inputUserCode){
         Debug.Log("GameDataManager>> Verify Login. inputUserCode: "+inputUserCode);
