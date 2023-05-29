@@ -473,6 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe9ecdeac07cf74084993b1fd992e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ProfileUI: {fileID: 0}
   logoutButton: {fileID: 1052541816}
 --- !u!1 &768268048
 GameObject:
@@ -557,6 +558,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &810556939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810556940}
+  m_Layer: 0
+  m_Name: GameDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &810556940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810556939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 540, y: 952, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861845692
 GameObject:
@@ -1226,6 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe9ecdeac07cf74084993b1fd992e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ProfileUI: {fileID: 0}
   logoutButton: {fileID: 1052541816}
 --- !u!1001 &1081240001
 PrefabInstance:
@@ -1625,12 +1658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57069b9c733aab943ab47f0b40e681ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carrotButton: {fileID: 1328892844}
-  hiddenButton: {fileID: 0}
-  soldButton: {fileID: 0}
   carrotInfoTemplate: {fileID: 7813719810357769130, guid: 14abbe177db256f47b3c129905061f85, type: 3}
   carrotContent: {fileID: 2119742077}
-  hiddenContent: {fileID: 0}
   soldContent: {fileID: 887356098}
 --- !u!114 &1328892844
 MonoBehaviour:
@@ -2200,12 +2229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57069b9c733aab943ab47f0b40e681ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carrotButton: {fileID: 1709843073}
-  hiddenButton: {fileID: 0}
-  soldButton: {fileID: 0}
   carrotInfoTemplate: {fileID: 7813719810357769130, guid: 14abbe177db256f47b3c129905061f85, type: 3}
   carrotContent: {fileID: 2119742077}
-  hiddenContent: {fileID: 0}
   soldContent: {fileID: 887356098}
 --- !u!1 &1709843071
 GameObject:
@@ -2354,12 +2379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57069b9c733aab943ab47f0b40e681ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carrotButton: {fileID: 1709843073}
-  hiddenButton: {fileID: 0}
-  soldButton: {fileID: 0}
   carrotInfoTemplate: {fileID: 7813719810357769130, guid: 14abbe177db256f47b3c129905061f85, type: 3}
   carrotContent: {fileID: 2119742077}
-  hiddenContent: {fileID: 0}
   soldContent: {fileID: 887356098}
 --- !u!1 &1792648092
 GameObject:

@@ -9,16 +9,15 @@ public class LogoutManager : MonoBehaviour
     public GameObject ProfileUI;
     public Button logoutButton; 
 
-    void private void Start() {
+    private void Start() {
         
     }
 
     public void onLogoutButtonClick(){
         Debug.Log("LogoutManager>> Logout Succes!");
-        gameDataManager.ManageLogoutData();
+        GameDataManager.Instance.ManageLogoutData();
         //go back to LoginScene
         SceneManager.LoadScene("SunjooScene");
     }
 
-    private void D
 }

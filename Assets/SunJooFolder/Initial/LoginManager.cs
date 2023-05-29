@@ -10,7 +10,7 @@ public class LoginManager : MonoBehaviour
     public TMP_InputField loginInputField;
 
     //input text in login input field
-    private string inputUserCode;
+    public string inputUserCode;
 
     void Awake(){   
         //init login button
@@ -32,9 +32,9 @@ public class LoginManager : MonoBehaviour
     //verify login
     public void OnLoginButtonClick(){
         //registered user code
-        if(gameDataManager.Contains(inputUserCode)){
-            Debug.Log("LoginManager>> Login Success!")
-            gameDataManager.ManageLoginData(inputUserCode);
+        if(GameDataManager.Instance.userCodeNameDict.ContainsKey(inputUserCode)){
+            Debug.Log("LoginManager>> Login Success!");
+            GameDataManager.Instance.ManageLoginData(inputUserCode);
         }
         //unregistered user code
         else{
