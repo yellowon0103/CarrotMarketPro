@@ -6,8 +6,8 @@ using TMPro;
 
 public class MyCarrotManager : MonoBehaviour
 {   
-    //public Button carrotButton;
-    //public Button soldButton;
+    public Button carrotButton;
+    public Button soldButton;
 
     public GameObject carrotInfoTemplate;
 

@@ -2197,5 +2197,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackgroundImage
       objectReference: {fileID: 0}
+    - target: {fileID: 3809812126379022551, guid: 574c5fef71c03224790508793412c35c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 574c5fef71c03224790508793412c35c, type: 3}
