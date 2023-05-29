@@ -59,3 +59,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPrefab:
     RawGuidValue: dbbeb16cb04dda244a9114116d4bd6e7
+  _nonVRplayerPrefab:
+    RawGuidValue: 61c59b3241f709c4b80e109dac56e47f

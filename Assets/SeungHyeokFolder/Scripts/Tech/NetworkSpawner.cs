@@ -9,9 +9,11 @@ using UnityEditor;
 public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] private NetworkPrefabRef _playerPrefab;
+    [SerializeField] private NetworkPrefabRef _nonVRplayerPrefab;
     private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new Dictionary<PlayerRef, NetworkObject>();
 
     NetworkCharacterInputHandler _characterInputHandler;
+    NetworkNonVRInputHandler _nonVRInputHandler;
     SessionListUIHandler _sessionListUIHandler;
     NetworkObject _sessionProduct = null;
 
@@ -30,7 +32,16 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
         // Create a unique position for the player
         Vector3 spawnPosition = NetworkUtils.GetRandomSpawnPoint();
-        NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);
+        NetworkObject networkPlayerObject = null;
+        if (GameDataManager.Instance.getIsVRUser())
+        {
+            networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);  // for VR user
+        }
+        else
+        {
+            networkPlayerObject = runner.Spawn(_nonVRplayerPrefab, spawnPosition, Quaternion.identity, player);  // for non VR user
+        }
+        
         // Keep track of the player avatars so we can remove it when they disconnect
         _spawnedCharacters.Add(player, networkPlayerObject);
 
@@ -69,12 +80,31 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
     }
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
-        if (_characterInputHandler == null && NetworkPlayer.Local != null)
-            _characterInputHandler = NetworkPlayer.Local.GetComponent<NetworkCharacterInputHandler>();
+        if (GameDataManager.Instance.getIsVRUser())
+        {
+            // for VR user
 
-        if (_characterInputHandler != null)
-            input.Set(_characterInputHandler.GetNetworkInput());
+            if (_characterInputHandler == null && NetworkPlayer.Local != null)
+                _characterInputHandler = NetworkPlayer.Local.GetComponent<NetworkCharacterInputHandler>();
 
+            if (_characterInputHandler != null)
+                input.Set(_characterInputHandler.GetNetworkInput());
+
+        }
+        else
+        {
+            // for Non VR user
+            if (_nonVRInputHandler == null && NetworkPlayer.Local != null)
+            {
+                Transform _Joystick = NetworkPlayer.Local.transform.Find("UICanvas/Joystick");
+                _nonVRInputHandler = _Joystick.GetComponent<NetworkNonVRInputHandler>();
+
+            }
+
+            if (_nonVRInputHandler != null)
+                input.Set(_nonVRInputHandler.GetNetworkInput());
+        }
+        
     }
     public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken) { }
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input) { }
