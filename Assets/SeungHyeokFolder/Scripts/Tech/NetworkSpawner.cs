@@ -4,6 +4,7 @@ using UnityEngine;
 using Fusion;
 using Fusion.Sockets;
 using System;
+using UnityEditor;
 
 public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
 {
@@ -12,6 +13,7 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     NetworkCharacterInputHandler _characterInputHandler;
     SessionListUIHandler _sessionListUIHandler;
+    NetworkObject _sessionProduct = null;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,28 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
         NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);
         // Keep track of the player avatars so we can remove it when they disconnect
         _spawnedCharacters.Add(player, networkPlayerObject);
+
+        string sessionName = null;
+
+        if (PlayerPrefs.HasKey("SessionName"))
+        {
+            sessionName = PlayerPrefs.GetString("SessionName");
+        }
+        if (_sessionProduct == null) 
+        {
+            GameObject _productPrefab = Resources.Load<GameObject>(sessionName);
+            if (_productPrefab != null)
+            {
+                Debug.Log($"Successfully loaded {sessionName} product prefab!");
+                _sessionProduct = runner.Spawn(_productPrefab, new Vector3(0, 1, 0), Quaternion.identity);
+            }
+
+            else 
+            {
+                Debug.Log($"The 3D mesh for {sessionName} is not yet mounted.");
+            }
+        }
+            
     }
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
