@@ -38,11 +38,17 @@ public class NetworkPlayer : NetworkBehaviour
         if (Object.HasInputAuthority)
         {
             Local = this;
-            RPC_SetNickName(GameDataManager.Instance.getLoggedInUserCode());
+            RPC_SetNickName(GameDataManager.Instance.getLoggedInUserName());
             Debug.Log("Spawned Local Player");
         }
         else
         {
+            Camera localCamera = GetComponentInChildren<Camera>();
+            localCamera.enabled = false;
+
+            AudioListener audioListener = GetComponentInChildren<AudioListener>();
+            audioListener.enabled = false;
+
             Debug.Log("Spawned Remote Player");
         }
     }
