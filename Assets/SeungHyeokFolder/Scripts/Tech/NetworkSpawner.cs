@@ -39,6 +39,8 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
         if (PlayerPrefs.HasKey("SessionName"))
         {
             sessionName = PlayerPrefs.GetString("SessionName");
+            PlayerPrefs.DeleteKey("SessionName");
+            PlayerPrefs.Save();
         }
         if (_sessionProduct == null) 
         {
