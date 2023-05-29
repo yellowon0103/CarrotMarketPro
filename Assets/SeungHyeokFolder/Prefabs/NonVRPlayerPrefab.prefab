@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 1340075209870095401}
   - component: {fileID: 6115269599458379688}
   - component: {fileID: 2342281670163177601}
-  - component: {fileID: 8644315753492559380}
+  - component: {fileID: 6842598130390860265}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -160,14 +160,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710629151005549301}
-  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: 0, y: 2, z: -4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4220150348022894484}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &6115269599458379688
 Camera:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710629151005549301}
   m_Enabled: 1
---- !u!114 &8644315753492559380
+--- !u!114 &6842598130390860265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13ca033681c2b114d92b89f3bbaed404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1
+  rotationSpeed: 2
   exclusionArea: {fileID: 4356388477623702455}
 --- !u!1 &1939921616744535412
 GameObject:
@@ -1000,6 +1000,7 @@ GameObject:
   - component: {fileID: 4397429411874189618}
   - component: {fileID: 1706297828659123399}
   - component: {fileID: 3963757742983089763}
+  - component: {fileID: 2934136452485976485}
   m_Layer: 0
   m_Name: NonVRPlayerPrefab
   m_TagString: Untagged
@@ -1149,6 +1150,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488fcccdaf0899546a79fc857bc92975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2934136452485976485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8451374625036532583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a03d4d1c25bbd44b8f5334f663ea24e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Joystick: {fileID: 4356388477623702455}
+  rotationSpeed: 2
+  exclusionArea: {fileID: 4356388477623702455}
 --- !u!1 &8886957745741583214
 GameObject:
   m_ObjectHideFlags: 0
