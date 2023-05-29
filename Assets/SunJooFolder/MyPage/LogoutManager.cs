@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class LogoutManager : MonoBehaviour
 {
-    public GameObject ProfileUI;
     public Button logoutButton; 
 
     private void Start() {
