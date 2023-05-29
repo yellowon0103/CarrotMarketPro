@@ -13,7 +13,7 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
     private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new Dictionary<PlayerRef, NetworkObject>();
 
     NetworkCharacterInputHandler _characterInputHandler;
-    NetworkNonVRInputHandler _nonVRInputHandler;
+    NetworkNonVRHandler _nonVRInputHandler;
     SessionListUIHandler _sessionListUIHandler;
     NetworkObject _sessionProduct = null;
 
@@ -96,9 +96,7 @@ public class NetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
             // for Non VR user
             if (_nonVRInputHandler == null && NetworkPlayer.Local != null)
             {
-                Transform _Joystick = NetworkPlayer.Local.transform.Find("UICanvas/Joystick");
-                _nonVRInputHandler = _Joystick.GetComponent<NetworkNonVRInputHandler>();
-
+                _nonVRInputHandler = NetworkPlayer.Local.GetComponent<NetworkNonVRHandler>();
             }
 
             if (_nonVRInputHandler != null)

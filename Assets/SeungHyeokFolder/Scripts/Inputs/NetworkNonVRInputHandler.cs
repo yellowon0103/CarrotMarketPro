@@ -48,6 +48,9 @@ public class NetworkNonVRInputHandler : MonoBehaviour, IBeginDragHandler, IEndDr
 
     private void InputControlVector()
     {
+        // ViewInput
+
+        // MoveInput
         moveInputVector = new Vector3(inputDirection.x, 0f, inputDirection.y);
     }
 
@@ -67,5 +70,10 @@ public class NetworkNonVRInputHandler : MonoBehaviour, IBeginDragHandler, IEndDr
         networkInputData.direction = moveInputVector;
 
         return networkInputData;
+    }
+
+    public Vector3 getMoveDirection()
+    {
+        return moveInputVector;
     }
 }

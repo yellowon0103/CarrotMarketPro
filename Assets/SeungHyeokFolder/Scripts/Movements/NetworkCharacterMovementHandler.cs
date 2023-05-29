@@ -30,10 +30,18 @@ public class NetworkCharacterMovementHandler : NetworkBehaviour
         if (GetInput(out NetworkInputData data))
         {
             data.direction.Normalize();
-            _cc.Move(5 * data.direction * Runner.DeltaTime);
+            Vector3 moveDirection = transform.forward * data.direction.z + transform.right * data.direction.x;
+            moveDirection = moveDirection.normalized;
+            _cc.Move(5 * moveDirection * Runner.DeltaTime);
 
+            // Apply rotation to the camera or parent GameObject
+            float rotationY = data.rotationY;
+            _cc.transform.Rotate(0f, rotationY, 0f, Space.Self);
+
+            /*
             if (data.direction.sqrMagnitude > 0)
                 _forward = data.direction;
+            */
         }
     }
 }
