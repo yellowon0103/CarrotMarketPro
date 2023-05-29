@@ -21,11 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MyPage Scene.unity
     guid: 28d215fd2d05e0b448cafb6a34ea709f
   - enabled: 1
-    path: Assets/SunJooFolder/Community/Community Scene.unity
-    guid: 1def11b5fd0893240a4fc38f7a91ff3a
-  - enabled: 1
-    path: Assets/SunJooFolder/Home/Home Scene.unity
-    guid: 17cb1729f325ab949ac25e2239baa55d
+    path: Assets/Scenes/3DMyPage Scene.unity
+    guid: 5c09fe0f6a4a7e440911b9e5b79fcf19
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/CommLoading.unity
     guid: 5b77a35280b4f8a4baf0f68bec62b113

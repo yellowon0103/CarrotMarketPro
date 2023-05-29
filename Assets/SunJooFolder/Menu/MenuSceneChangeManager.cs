@@ -19,7 +19,7 @@ public class MenuSceneChangeManager : MonoBehaviour
             SceneManager.LoadScene("CommLoading");
         }
         if(buttonName == "MenuMyPageButton"){
-            SceneManager.LoadScene("MyPage Scene");
+            SceneManager.LoadScene("3DMyPage Scene");
         }
     }    
 }
