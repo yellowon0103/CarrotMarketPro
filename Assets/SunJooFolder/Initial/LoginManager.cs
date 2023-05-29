@@ -9,6 +9,9 @@ public class LoginManager : MonoBehaviour
     public Button loginButton;
     public TMP_InputField loginInputField;
 
+    public TMP_Text VROptionText;
+    public Toggle VROptionToggle;
+
     //input text in login input field
     private string inputUserCode;
 
@@ -22,7 +25,6 @@ public class LoginManager : MonoBehaviour
             LoginUISetActive(true);
         } 
     }
-
 
     //login button iteractable when loginInputField.text length is 4
     public void CheckLoginInputFieldLen(){
@@ -45,7 +47,7 @@ public class LoginManager : MonoBehaviour
         //registered user code
         if(GameDataManager.Instance.VerifyLogin(inputUserCode)){
             Debug.Log("LoginManager>> Login Success!");
-            GameDataManager.Instance.ManageLoginData(inputUserCode);
+            GameDataManager.Instance.ManageLoginData(inputUserCode, VROptionToggle.isOn);
 
             //hide LoginUI
             LoginUISetActive(false);
@@ -61,7 +63,12 @@ public class LoginManager : MonoBehaviour
         loginInputField.text = "회원 코드 4자리 입력";
         loginButton.interactable = false;
 
+        VROptionToggle.isOn = false;
+
         loginInputField.gameObject.SetActive(inputState);
         loginButton.gameObject.SetActive(inputState);
+
+        VROptionText.gameObject.SetActive(inputState);
+        VROptionToggle.gameObject.SetActive(inputState);
     }
 }

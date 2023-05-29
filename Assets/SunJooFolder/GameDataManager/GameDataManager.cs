@@ -21,6 +21,8 @@ public class GameDataManager : MonoBehaviour
     private bool isLoggedIn;
     private string loggedInUserCode; 
 
+    private bool isVRUser;
+
     //(2) User Data
     //<user code, user name> dictionary 
     private Dictionary<string, string> userCodeNameDict;
@@ -36,11 +38,9 @@ public class GameDataManager : MonoBehaviour
             this.isSold = _isSold;
         }
     }
-
-    //<user code, user carrot info list> dictionary
+    //<user code, carrot info list> dictionaty
     private Dictionary<string, List<CarrotInfo>> userCodeCarrotListDict;
 
-  
     //----------------------------------------------
    
     void Awake(){
@@ -56,6 +56,7 @@ public class GameDataManager : MonoBehaviour
         //(1) init
         isLoggedIn = false;
         loggedInUserCode = "0";
+        isVRUser = false;
 
         //(2) init
         userCodeNameDict = new Dictionary<string, string>();
@@ -83,17 +84,24 @@ public class GameDataManager : MonoBehaviour
     public bool getIsLoggedIn(){return isLoggedIn;}
     public string getLoggedInUserCode(){return loggedInUserCode;}
 
+    public bool getIsVRUser(){return isVRUser;}
+
     //called when login happened in SunjooScene
-    public void ManageLoginData(string inputUserCode){
+    public void ManageLoginData(string inputUserCode, bool VROptionToggleValue){
         isLoggedIn = true;
         loggedInUserCode = inputUserCode;
+
+        isVRUser = VROptionToggleValue;
+
         Debug.Log("GameDataManager>> Managed Login Data. loggedInUserCode: "+loggedInUserCode);
+        Debug.Log("GameDataManager>> Managed Login Data. isVRUser: "+isVRUser);
     }
 
     //called when logout happened in MyPageScene
     public void ManageLogoutData(){
         isLoggedIn = false;
         loggedInUserCode = "0";
+        isVRUser = false;
         Debug.Log("GameDataManager>> Managed Logout Data. loggedInUserCode: "+loggedInUserCode);
     }
 
