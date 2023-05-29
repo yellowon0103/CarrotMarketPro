@@ -41,7 +41,8 @@ public class NetworkPlayer : NetworkBehaviour
         {
             Local = this;
 
-            RPC_SetNickName(PlayerPrefs.GetString("PlayerNickname"));
+            // RPC_SetNickName(PlayerPrefs.GetString("PlayerNickname"));
+            RPC_SetNickName(GameDataManager.Instance.getLoggedInUserCode());
 
             Debug.Log("Spawned Local Player");
         }

@@ -68,6 +68,9 @@ public class MainMenuUIHandler : MonoBehaviour
 
         networkRunnerHandler.CreateGame(sessionNameInputField.text, "SHGround");  // 실질적 Scene Fetch. 여기서 닉네임 체크하면 될듯.
 
+        PlayerPrefs.SetString("SessionName", sessionNameInputField.text);
+        PlayerPrefs.Save();
+
         HideAllPanels();
         statusPanel.gameObject.SetActive(true);
     }
