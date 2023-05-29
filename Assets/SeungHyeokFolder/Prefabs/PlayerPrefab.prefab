@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   playerNickNameTM: {fileID: 3361888228748843433}
+  chatManager: {fileID: 3272778670582074973, guid: b720182d90298ce498dd64149feb3378, type: 3}
   _nickName:
     _length: 0
     _data:
