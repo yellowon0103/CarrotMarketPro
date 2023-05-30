@@ -714,8 +714,22 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: FUSION_WEAVER
-    Standalone: FUSION_WEAVER
+    Android: FUSION_WEAVER;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    EmbeddedLinux: 
+    GameCoreScarlett: 
+    GameCoreXboxOne: 
+    LinuxHeadlessSimulation: 
+    Lumin: 
+    Nintendo Switch: 
+    PS4: 
+    PS5: 
+    Stadia: 
+    Standalone: FUSION_WEAVER;CROSS_PLATFORM_INPUT
+    WebGL: 
+    Windows Store Apps: MOBILE_INPUT
+    XboxOne: 
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    tvOS: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

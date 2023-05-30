@@ -63,14 +63,7 @@ public class NetworkNonVRInputHandler : MonoBehaviour, IBeginDragHandler, IEndDr
         }
     }
 
-    public NetworkInputData GetNetworkInput()
-    {
-        NetworkInputData networkInputData = new NetworkInputData();
-
-        networkInputData.direction = moveInputVector;
-
-        return networkInputData;
-    }
+    
 
     public Vector3 getMoveDirection()
     {
