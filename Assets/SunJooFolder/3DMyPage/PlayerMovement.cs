@@ -26,8 +26,22 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        //go back to sunjoo scene
         if(Input.GetKey(KeyCode.Q)){
+            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            SceneManager.LoadScene("SunjooScene");
+        }
+        //logout and go back to sunjoo scene
+        if(Input.GetKey(KeyCode.L)){
+            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            GameDataManager.Instance.ManageLogoutData();
             SceneManager.LoadScene("SunjooScene");
         }
 
